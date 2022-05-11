@@ -1,7 +1,12 @@
+import Navbar from "../Navbar/Navbar";
 function Header(prop) {
     return(
+<>
+<nav><Navbar/> </nav> 
 
-<h1>React app is coming </h1>
+<h1>Travel Destination</h1>
+
+</>
 
     )
 }
