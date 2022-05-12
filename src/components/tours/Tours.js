@@ -7,12 +7,11 @@ return(
     {data.map(element =>{
 
 return (
-
 <Tour images={element.image} names={element.name} ids={element.id} />
 )
 })
 }
-    
+  
     </>
 )
 
